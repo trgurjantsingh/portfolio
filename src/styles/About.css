@@ -1,0 +1,13 @@
+.about-container{
+    height: 100vh;
+    width: 100%;
+    background-color: aqua;
+    margin-top: 70px;
+
+}
+
+.about-heading{
+    width: 100%;
+    text-align: center;
+    font-size: 40px;
+}

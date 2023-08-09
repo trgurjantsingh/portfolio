@@ -1,0 +1,41 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    overflow-x: hidden;
+
+}
+.main-container{
+    position: relative;
+}
+.navbar-container{
+    height: 70px;
+    width: 100%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   transition: all 0.5s;
+    position: fixed;
+  top: 0;
+    z-index: 2;
+    
+}
+
+.logo{
+    color: white;
+    margin-left: 50px;
+}
+
+.links-btn{
+    cursor: pointer;
+    font-size: 20px; 
+    color: black;
+    font-weight: 600;
+    display: flex;
+    gap: 70px;
+    margin-right: 100px;
+    list-style: none;
+    
+
+}
