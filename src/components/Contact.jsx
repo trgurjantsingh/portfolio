@@ -3,7 +3,7 @@ import "../styles/Contact.css";
 import { BsGithub } from "react-icons/bs";
 import { BsLinkedin } from "react-icons/bs";
 import { BsInstagram } from "react-icons/bs";
-import cont from "../assets/contact3.jpg";
+import cont from "../assets/cvg.webp";
 import Vid from "../assets/vid1.mp4";
 
 const Contact = () => {
@@ -34,14 +34,14 @@ const Contact = () => {
             position: "absolute",
             width: "100%",
             objectFit: "cover",
-            height: "750px",
+            height: "100vh",
             zIndex: "-1",
           }}
           muted
           autoPlay
           loop
         ></video>
-        <div style={{ width: "50%" }}> {/* <img src={cont} alt="" /> */}</div>
+        <div  className="image-container"> <img src={cont} className="image-contact" alt="" /></div>
         <div
           style={{
             width: "50%",

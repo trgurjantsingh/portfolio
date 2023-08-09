@@ -1,11 +1,18 @@
 
-
+.contact{
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
 .contact-form-container {
   margin-top: 80px;
- height: auto;
+ height: 70%;
  border-radius: 20px;
  width: 70%;
- background: rgb(16 13 37);
+ backdrop-filter: blur(1px) saturate(180%);
+ -webkit-backdrop-filter: blur(1px) saturate(180%);
+ background-color: rgba(0, 20, 90, 0.274);
   
     padding: 20px;
   }
@@ -35,6 +42,8 @@
   .contact-form button:hover {
     background-color: #0056b3;
   }
+
+
   
 
   .contact{
@@ -44,4 +53,18 @@
   .send-btn{
     width: 20%;
   }
-  
+  .image-container{
+    width: 60%;
+    height: 700px;
+    align-items: center;
+    object-fit: cover;
+    display: flex;
+    justify-content: center;
+  }
+
+  .image-contact{
+ 
+ width: 75%;
+ object-fit: contain;
+ height: 75%;
+  }
