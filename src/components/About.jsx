@@ -5,16 +5,21 @@ const About = () => {
     <>
       <div className="about-container">
         <h1 className="about-heading">Welcome to my portfolio</h1>
-
-        <div className="about-content">
-          <p>
-            I'm Gurjant Singh, a passionate and dedicated backend developer with
-            a strong foundation in crafting robust and scalable web
-            applications. With a deep love for coding and problem-solving, I
-            thrive in the dynamic and ever-evolving world of technology. Allow
-            me to take you on a journey through my skills, experiences, and
-            projects.
-          </p>
+        <div className="aboutDiv">
+          <div className="about-content">
+            <p className="about-description">
+              Meet Gurjant Singh, your Backend Coding Craftsman! 🚀 With a year
+              immersed in coding realms, I specialize in backend brilliance.
+              Proficient in Express.js, I architect robust APIs that power
+              seamless interactions. Node.js is my playground for
+              high-performance server-side magic, while Next.js fuels my
+              curiosity for dynamic applications. From optimizing data flow to
+              ensuring top-notch security, I engineer solutions that align code
+              with functionality. Let's code the future together—one efficient
+              API at a time.
+            </p>
+          </div>
+          <div>llllll</div>
         </div>
       </div>
     </>
